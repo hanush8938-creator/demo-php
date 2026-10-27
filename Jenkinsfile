@@ -140,8 +140,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/hanush8938-creator/demo-php.git'
+                git branch: 'main',url: 'https://github.com/hanush8938-creator/demo-php.git'
             }
         }
 
