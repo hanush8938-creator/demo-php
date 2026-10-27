@@ -132,7 +132,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'tanay25/php-jenkins-demo'
+        IMAGE_NAME = 'hanush8938/php-jenkins-demo'
         CONTAINER_NAME = 'php-jenkins-app'
         APP_PORT = '9000'
     }
@@ -141,7 +141,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/tanay25/phpjenkins.git'
+                    url: 'https://github.com/hanush8938-creator/demo-php.git'
             }
         }
 
